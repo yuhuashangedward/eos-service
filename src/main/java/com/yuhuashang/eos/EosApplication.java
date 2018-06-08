@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class EosApplication {
 
 	public static void main(String[] args) {
-
+// This is a simple demo.
 		new SpringApplicationBuilder(EosApplication.class)
 				.web(true).run(args);
 	}
